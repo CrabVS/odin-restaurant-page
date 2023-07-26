@@ -1,0 +1,35 @@
+header {
+    position: fixed;
+    background-color: #f5ede9;
+    z-index: 100;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    border-bottom: 1px solid red;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 50px;
+}
+
+nav ul li {
+    height: 100%;
+    width: 100px;
+}
+
+nav ul a {
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul a:hover {
+    background-color: #dac8bf;
+}
