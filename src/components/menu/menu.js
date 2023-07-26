@@ -1,6 +1,6 @@
 import './menu.css';
 
-const initializeMenu = function initializeHome() {
+const initializeMenu = function initializeMenu() {
     const contentEl = document.getElementById('content');
     
     contentEl.innerHTML = 

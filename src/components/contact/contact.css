@@ -1,0 +1,33 @@
+#contact-container {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 60px;
+    padding: 40px 26px;
+    background-color: #e2cbbc;
+    height: 100%;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+#contact-container h2 {
+    text-align: center;
+}
+
+#contact-container hr {
+    width: 20%;
+    border-color: #c9af9e;
+}
+
+#contact h5 {
+    text-decoration: underline;
+    padding-bottom: 20px;
+}
+
+#contact h6 {
+    padding-bottom: 4px;
+}
+
+.contact-box {
+    padding-bottom: 20px;
+}

@@ -24,6 +24,14 @@ h4 {
     font-size: 1.6rem;
 }
 
+h5 {
+    font-size: 1.3rem;
+}
+
+h6 {
+    font-size: 1.1rem;
+}
+
 .btn {
     padding: 10px 20px;
     border-radius: 6px;
