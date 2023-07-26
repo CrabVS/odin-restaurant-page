@@ -8,11 +8,15 @@ html, button {
 
 body {
     width: 100%;
-    height: 100vh;
 }
 
 h1 {
     font-size: 3rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2.2rem;
     font-weight: bold;
 }
 
@@ -40,4 +44,48 @@ h4 {
 #content {
     width: 100%;
     height: 100%;
+    padding-top: 50px;
+}
+
+#menu-container {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 60px;
+    padding: 40px 26px;
+    background-color: #e2cbbc;
+    height: 100%;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+#menu-container h2 {
+    text-align: center;
+}
+
+#menu-container hr {
+    width: 20%;
+    border-color: #c9af9e;
+}
+
+#item-boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#item-boxes hr {
+    width: 80%;
+}
+
+#item-boxes .item-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-box .item-description {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
 }

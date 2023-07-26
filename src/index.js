@@ -4,4 +4,4 @@ import './header.css';
 
 import initializeHome from './components/home/home';
 
-initializeHome();
+//initializeHome();
