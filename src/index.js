@@ -1,4 +1,6 @@
 import './reset.css';
 import './style.css';
 
-console.log('Hello World!');
+import initializeHome from './components/home/home';
+
+initializeHome();
