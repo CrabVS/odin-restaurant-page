@@ -1,5 +1,13 @@
 import './home.css';
 
+import initializeMenu from '../menu/menu';
+
+const addButtonListener = function addButtonListener() {
+    const buttonEl = document.querySelector('#home-header .btn');
+
+    buttonEl.addEventListener('click', initializeMenu );
+}
+
 const initializeHome = function initializeHome() {
     const contentEl = document.getElementById('content');
     
@@ -12,6 +20,8 @@ const initializeHome = function initializeHome() {
             <button class="btn">The Menu</button>
         </div>
     </div>`
+
+    addButtonListener();
 }
 
 export default initializeHome;
